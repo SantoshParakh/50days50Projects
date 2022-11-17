@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Poppins:wght@200;300;400;500;700&family=Roboto:wght@400;700&family=Sacramento&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: steelblue;
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 20px;
+}
+.container{
+    text-align: center;
+    padding: 50px 20px; 
+    background-color: #fff;
+    border-radius: 10px;
+    width: 800px;
+    max-width: 100%;
+}
+h3{
+    margin: 0;
+    letter-spacing: 2px;
+    opacity: 0.5;
+}
+.joke{
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+.btn{
+    background-color: #9868e0;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 30px;
+    padding:14px 40px;
+    font-size: 16px;
+    
+}
+.btn:active{
+    transform: scale(0.95);
+}
+.btn:focus{
+    outline: 0;
+}
