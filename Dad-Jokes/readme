@@ -1,1 +1,3 @@
-
+This is a project where in we have used a third party API to generate a random joke.
+Web page have a container where joke would be displayed post clicking on the "generate joke" button
+API: https://icanhazdadjoke.com
